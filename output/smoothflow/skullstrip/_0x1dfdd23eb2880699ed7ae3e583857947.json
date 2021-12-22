@@ -1,0 +1,23 @@
+[
+    [
+        "in_file",
+        [
+            "/home/aracena/thesis_practica/data/ds002422/sub-01/anat/sub-01_T1w.nii",
+            "2bc1e7a0d1cbdde27df53913c9716ff6"
+        ]
+    ],
+    [
+        "mask",
+        true
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

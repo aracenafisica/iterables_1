@@ -1,0 +1,17 @@
+[
+    [
+        "fwhm",
+        "16.0000000000"
+    ],
+    [
+        "in_file",
+        [
+            "/opt/home/aracena/thesis_practica/tips_nipype/iterables/output/smoothflow/skullstrip/sub-01_T1w_brain.nii.gz",
+            "2665b5569f793e7f0c82bbc91ad55c13"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ]
+]

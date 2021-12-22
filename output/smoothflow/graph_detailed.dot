@@ -1,0 +1,10 @@
+digraph structs {
+node [shape=record];
+smoothflowskullstrip [label="{IN}|{ skullstrip | fsl |  }|{OUT|<outoutfile> out_file}"];
+smoothflowiso_smoothaIa2 [label="{IN|<ininfile> in_file}|{ a2 | fsl | iso_smooth.aI }|{OUT}"];
+smoothflowiso_smoothaIa1 [label="{IN|<ininfile> in_file}|{ a1 | fsl | iso_smooth.aI }|{OUT}"];
+smoothflowiso_smoothaIa0 [label="{IN|<ininfile> in_file}|{ a0 | fsl | iso_smooth.aI }|{OUT}"];
+smoothflowskullstrip:outoutfile:e -> smoothflowiso_smoothaIa0:ininfile:w;
+smoothflowskullstrip:outoutfile:e -> smoothflowiso_smoothaIa1:ininfile:w;
+smoothflowskullstrip:outoutfile:e -> smoothflowiso_smoothaIa2:ininfile:w;
+}

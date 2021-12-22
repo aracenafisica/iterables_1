@@ -1,0 +1,5 @@
+strict digraph  {
+"skullstrip (fsl)";
+"iso_smooth (fsl)";
+"skullstrip (fsl)" -> "iso_smooth (fsl)";
+}

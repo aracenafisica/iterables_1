@@ -1,0 +1,58 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "total": 4
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        }
+    ],
+    "maxN": 4,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_skullstrip",
+            "report": "/opt/skullstrip/_report/report.rst",
+            "result": "/opt/skullstrip/result_skullstrip.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_iso_smooth",
+            "report": "/opt/_fwhm_16/iso_smooth/_report/report.rst",
+            "result": "/opt/_fwhm_16/iso_smooth/result_iso_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_iso_smooth",
+            "report": "/opt/_fwhm_8/iso_smooth/_report/report.rst",
+            "result": "/opt/_fwhm_8/iso_smooth/result_iso_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_iso_smooth",
+            "report": "/opt/_fwhm_4/iso_smooth/_report/report.rst",
+            "result": "/opt/_fwhm_4/iso_smooth/result_iso_smooth.pklz"
+        }
+    ]
+}

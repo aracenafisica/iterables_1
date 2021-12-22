@@ -1,0 +1,1 @@
+bet sub-01_T1w.nii sub-01_T1w_brain.nii.gz -m

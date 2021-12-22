@@ -1,0 +1,32 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_skullstrip",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_skullstrip"
+        ],
+        "name": "1_iso_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_skullstrip"
+        ],
+        "name": "2_iso_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_skullstrip"
+        ],
+        "name": "3_iso_smooth",
+        "size": 1
+    }
+]
